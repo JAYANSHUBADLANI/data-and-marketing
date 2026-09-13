@@ -1,0 +1,26 @@
+title: Data Driven Marketing
+description: Notes on marketing analytics, media mix modeling, experimentation, and growth measurement.
+url: "https://jayanshubadlani.github.io"
+baseurl: "/data-driven-marketing"
+
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+author:
+  name: Jayanshu Badlani
+
+minima:
+  skin: classic
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
