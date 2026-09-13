@@ -1,7 +1,7 @@
-title: Data Driven Marketing
-description: Notes on marketing analytics, media mix modeling, experimentation, and growth measurement.
+title: Data & Marketing
+description: Two verticals, one author. Data science and analytics on one side, marketing on the other.
 url: "https://jayanshubadlani.github.io"
-baseurl: "/data-driven-marketing"
+baseurl: "/data-and-marketing"
 
 theme: minima
 
@@ -15,6 +15,10 @@ author:
 
 minima:
   skin: classic
+  header_pages:
+    - data.md
+    - marketing.md
+    - about.md
 
 markdown: kramdown
 permalink: /:categories/:title/
